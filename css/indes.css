@@ -1,0 +1,103 @@
+*{
+	padding: 0;
+	margin: 0;
+	border: 0;	
+}
+.box{
+	width:700px;
+	height:600px;
+	position: absolute;
+	top: 0;
+	left: 0;
+	right:0;
+	bottom: 0;
+	margin: auto;
+}
+#canvas{
+	position: absolute;
+	left: 0;
+	/*border: 1px solid #ccc;*/
+	border-radius: 8px;
+	background: url(../img/beijing.jpg) no-repeat center center;
+}
+.tishi{
+	width: 100px;
+	height: 600px;
+	background: url(../img/beijing.jpg) no-repeat center center;
+	/*font-size: 24px;
+	text-align: center;
+	line-height: 200px;*/
+	border-radius: 8px;
+	position:absolute;
+	right:0;
+}
+img{
+	position: absolute;
+	display: none;
+	margin: 10px 0 0 35px;
+}
+.tishi .time{
+	width: 80px;
+	height: 40px;
+	margin: 0 auto;
+	margin-top: 40px;
+	background: url(../img/08.png);
+	font-size: 28px;
+	line-height: 40px;
+	text-align: center;
+}
+.stop{
+	width: 80px;
+	height: 40px;
+	margin: 0 auto;
+	margin-top: 60px;
+	background: url(../img/01.png);
+}
+.xuanxiang{
+	width: 80px;
+	height: 40px;
+	margin: 0 auto;
+	margin-top: 36px;
+	background: url(../img/02.png);
+}
+.fanhui{
+	width: 80px;
+	height: 40px;
+	margin: 0 auto;
+	margin-top: 36px;
+	background: url(../img/03.png);
+}
+.huiqi{
+	width: 80px;
+	height: 40px;
+	margin: 0 auto;
+	margin-top: 36px;
+	background: url(../img/04.png);
+}
+.xinju{
+	width: 80px;
+	height: 40px;
+	margin: 0 auto;
+	margin-top: 36px;
+	background: url(../img/05.png);
+}
+.xinju a{
+	display: block;
+	width: 100%;
+	height: 100%;
+	cursor: context-menu;
+}
+.danji{
+	width: 80px;
+	height: 40px;
+	margin: 0 auto;
+	margin-top: 36px;
+	background: url(../img/07.png);
+}
+.list{
+	transition: transform .5s ease;
+	transform: rotate3d(0,0,0,360deg);
+}
+.fanzhuang{
+	transform: rotate3d(0,0,1,360deg);
+}
